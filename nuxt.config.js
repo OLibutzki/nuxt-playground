@@ -2,6 +2,7 @@ export default {
   router: {
     base: '/nuxt-playground/'
   },
+  target: 'static',
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
