@@ -64,6 +64,6 @@ export default {
   build: {
   },
   router: {
-    ...routerBase
+    base: '/nuxt-playground/'
   }
 }
