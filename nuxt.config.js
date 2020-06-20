@@ -1,11 +1,7 @@
-// only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.GITHUB_ACTIONS ? {
+export default {
   router: {
     base: '/nuxt-playground/'
-  }
-} : {}
-
-export default {
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -62,8 +58,5 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  },
-  router: {
-    base: '/nuxt-playground/'
   }
 }
