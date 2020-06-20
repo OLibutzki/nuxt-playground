@@ -5,7 +5,9 @@
       <h1 class="title">
         nuxt-playground
       </h1>
+      <b-form-input placeholder="Enter your name" />
       <div class="links">
+        <b-link href="https://nuxtjs.org/" rel="noopener noreferrer" class="button--green">Documentation bootstrap-vue</b-link>
         <a
           href="https://nuxtjs.org/"
           target="_blank"
